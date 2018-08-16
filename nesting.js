@@ -86,7 +86,7 @@ var workplaceAccidents = [12, 56, 44, 3, 29, 56, 56, 3, 7, 12];
 //   })
 //   }
 
-//   let removeDuplicates = (workplaceAccidents) => workplaceAccidents.filter((element, i) => workplaceAccidents.indexOf(element) === i);
+  let removeDuplicates = (workplaceAccidents) => workplaceAccidents.filter((element, i) => workplaceAccidents.indexOf(element) === i);
   
 
 function removeDuplicates(workplaceAccidents) {
